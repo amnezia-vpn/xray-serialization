@@ -27,6 +27,7 @@ set(SOURCES
     vless.cpp
     vmess.cpp
     vmess_new.cpp
+    utilities.cpp
 )
 
 add_library(${PROJECT_NAME} SHARED ${SOURCES})
